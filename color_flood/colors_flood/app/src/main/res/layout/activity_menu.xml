@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@drawable/fondcolorflood"
+    android:weightSum="1">
+
+
+    <Button
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:text=" Jouer "
+        android:id="@+id/play_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.02" />
+
+    <Button
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:text="Niveau"
+        android:id="@+id/level_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.02" />
+
+    <Button
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:text=" About "
+        android:id="@+id/about_button"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_weight="0.02" />
+</LinearLayout>

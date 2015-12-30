@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:background="@drawable/fondcolorflood"
+    android:weightSum="1">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:weightSum="1">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:weightSum="1">
+            <Button
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:text="Retour"
+                android:id="@+id/return_button"
+                android:layout_gravity="bottom"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_weight="0"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
